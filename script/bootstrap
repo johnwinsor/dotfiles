@@ -150,6 +150,13 @@ then
   else
     fail "error installing dependencies"
   fi
+  info "installing fonts"
+  if rsync --exclude ".DS_Store" -av --no-perms fonts/ ~/Library/Fonts/
+  then
+    success "fonts installed"
+  else
+    fail "error installing fonts"
+  fi
 fi
 
 echo ''
