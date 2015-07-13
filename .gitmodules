@@ -1,3 +1,6 @@
 [submodule "/Users/johnwinsor/.dotfiles/antigen"]
 	path = /Users/johnwinsor/.dotfiles/antigen
 	url = https://github.com/zsh-users/antigen.git
+[submodule "/Users/johnwinsor/.dotfiles/vim/vim.symlink/bundle/Vundle.vim"]
+	path = /Users/johnwinsor/.dotfiles/vim/vim.symlink/bundle/Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git
